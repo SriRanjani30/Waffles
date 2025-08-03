@@ -1,0 +1,98 @@
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+nav {
+  text-align: center; 
+  margin-top: 10px;
+}
+
+nav a {
+  color: blue;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.center-text {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.center-text ul {
+  list-style-position: inside; /* keeps bullets aligned with centered text */
+  padding: 0;
+}
+
+.center-text li {
+  margin-bottom: 8px;
+}
+
+button {
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #66BB6A, #388E3C);
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.center-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.bird-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 400px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  background-color: #f9f9f9;
+}
+
+.bird-card:hover {
+  transform: scale(1.05);
+}
+
+.bird-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
